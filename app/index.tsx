@@ -18,7 +18,7 @@ export default function index() {
     consultarVideojuegos()
       .then((listaVideojuegos) => {setListaVidejuegos(listaVideojuegos)
                                   setTimeout(() => {
-                                    router.replace("/inicio")
+                                    router.replace("/operaciones/detalle")
                                   }, 500);
 
        } )
